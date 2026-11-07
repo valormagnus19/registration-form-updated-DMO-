@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 - array</title>
+    <script src="script.js" defer></script>
+    <style>
+        li{
+            display: flex;
+            align-items: center;
+            width: 300px;
+            justify-content: space-around;
+            padding: 5px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            margin: 3px;
+            background: linear-gradient(90deg,rgb(53, 179, 218), rgb(38, 98, 187));
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 25%;
+            background: linear-gradient(90deg,rgb(53, 179, 218), rgb(38, 98, 187));
+        }
+        .form_container{
+            width: 400px;
+            height: 100px;
+            background: linear-gradient(180deg,rgba(110, 110, 224, 0.781),rgba(192, 126, 247, 0.623));
+            flex-direction: column;
+            /* align-items: center; */
+            text-align: center;
+            border-radius: 10px;
+        }
+        .new_form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 5%;
+        }
+        form input, button{
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 2%;
+        }
+        #error_message {
+            font-weight: bold;
+            display: inline-block;
+            max-width: 45%;
+            margin: auto;
+        }
+
+    </style>
+</head>
+  <body>
+      <div class="form_container">
+        <form class="new_form">
+           <input type="text" name="username" id="username" placeholder="Enter your name">
+           <button type="submit" id="submit">submit</button>
+        </form>
+   </div>
+   <div class="array_container">
+    
+   </div>
+   <p id="error_message"></p>
+     <ul id="list">
+    
+     </ul>
+  </body>
+</html>
+
+
+
+
